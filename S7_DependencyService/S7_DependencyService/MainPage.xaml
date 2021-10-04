@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7_DependencyService.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Semana 7" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Dependencia de Servicios" FontSize="Title" HorizontalTextAlignment="Center"/>
+        <StackLayout>
+            <Button x:Name="Item11" Text="Text To Speech v1" CharacterSpacing="5"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="Item14" Text="Text To Speech v2" CharacterSpacing="5"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="Item12" Text="IBattery" CharacterSpacing="5"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="Item13" Text="QR en Android" CharacterSpacing="5"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
